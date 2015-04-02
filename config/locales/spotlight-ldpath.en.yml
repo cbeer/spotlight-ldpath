@@ -1,0 +1,8 @@
+en:
+  spotlight:
+    resources:
+      ldpath:
+        form:
+          url-field:
+            help: ""
+          add_item: "Add linked data resources"

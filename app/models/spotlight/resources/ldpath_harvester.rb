@@ -2,7 +2,7 @@ module Spotlight::Resources
   class LdpathHarvester < Spotlight::Resource
 
     def self.can_provide? res
-      false
+      res.data.include? :program
     end
 
     def to_solr
